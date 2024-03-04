@@ -4,7 +4,7 @@ import { drawLine } from '@/utils/drawLine'
 import {useEffect, useState} from 'react'
 import {ChromePicker} from 'react-color'
 import { io } from "socket.io-client";
-const socket = io("https://sketch-it-backend.vercel.app/");
+const socket = io("https://sketchit-backend-main.onrender.com/");
 
 type drawLineProps={
   prevPoint:Point | null,
